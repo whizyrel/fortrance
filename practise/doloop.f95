@@ -1,0 +1,20 @@
+
+
+PROGRAM DOLOOPPQ
+IMPLICIT NONE
+
+INTEGER :: J, K
+
+K = 2
+DO J = 3, 8, 2
+
+  K = K + J
+  PRINT *, K
+
+END DO
+
+K = K * 2
+
+WRITE (*, *) K ! 34, LAS! LAS!
+
+END PROGRAM DOLOOPPQ

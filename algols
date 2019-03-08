@@ -1,0 +1,32 @@
+
+
+
+http://www.chem.ox.ac.uk/fortran/arithmetic.html
+
+program temp converter
+
+read celcius
+fahr
+
+fahr = ((9/5) * cel + 32)
+write fahr
+
+
+program for loop
+
+i = 1
+for loop i; i < 6; i++
+write sqrt i
+
+
+program discriminant
+
+read a, b, c
+
+ouput =sqrt(b*b - (4*a*c));
+
+write output
+
+
+
+
